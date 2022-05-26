@@ -1,0 +1,58 @@
+
+    :root{
+        font-family: 'Nanum Gothic', sans-serif;
+     --primary-color:#8baa35af;
+    }
+    body{
+     margin: 0;
+     background-color: var(--primary-color);
+     color: rgb(0, 0, 0);
+     opacity: 0.8px;
+    }
+    header{
+     padding: 1rem;
+    }
+    main{
+     margin: auto;
+     text-align: center;
+    }
+    .title-section{
+     padding: 1rem;
+    }
+    #datepicker{
+     box-sizing: border-box;
+     width: 9rem;
+     padding: 5px;
+     border-radius: 15px;
+     border: 2px solid black;
+    }
+    .image-div{
+     width: 80%;
+     margin: auto;
+    }
+    #image_of_the_day{
+     width: 100%;
+    }
+
+    .video-div{
+     width: 80%;
+     margin: auto;
+    }
+    #videoLink{
+     width: 100%;
+     height: 70vh
+    }
+
+    .description-div{
+     width: 80%;
+     margin:0.1rem auto 1rem;
+     border: solid 3px rgb(0, 0, 0);
+     padding: 0.5rem;
+     border-radius: 00.5rem;
+     font-weight: bold;
+     background: rgba(255, 255, 255, 0.481);
+    }
+
+    #description{
+     line-height:1.82;
+    }
